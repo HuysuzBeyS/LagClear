@@ -11,12 +11,15 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY-NC-SA-4.0",
 	"icon": "assets/lagclearmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.lagclear.LagClearMod"
+		],
+		"client": [
+			"com.lagclear.client.LagClearModMenu"
 		]
 	},
 	"mixins": [
